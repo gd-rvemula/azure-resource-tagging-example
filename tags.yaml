@@ -1,0 +1,48 @@
+Resource:
+  # =================================================================
+  # Resource Information - Minimum suggested tags
+  # ================================================================= 
+  # WorkloadName : Name of the workload the resource supports.
+  WorkloadName: AccountEnrollment
+  WorkloadDomain: ControlCharts
+  # DataClassification: Sensitivity of data hosted by this resource
+  # Ex:Non-business, Public, General, Confidential, HighlyConfidential
+  DataClassification: Confidential
+  #BusinessCriticality:Business impact of the resource or supported workload.
+  #Ex:Low, Medium, High, Businessunit-critical, Mission-critical
+  BusinessCriticality: Mission-critical
+  #BusinessUnit:Top-level division of your company that owns the subscription or workload that the resource belongs to.
+  #Ex:Finance, Marketing, Product XYZ, Corp, Shared
+  BusinessUnit: Finance
+  #Operations commitment	Level of operations support provided for this workload or resource.
+  #OpsCommitment:Baseline only, Enhanced baseline, Platform operations, Workload operations
+  OpsCommitment: BaselineOnly
+  #Operations team:Team accountable for day-to-day operations.
+  #OpsTeam:Central IT, Cloud operations, ControlCharts team, MSP-{Managed Service Provider name}
+  OpsTeam: CentralIT
+  # =================================================================
+  # Resource Information - Addtional tags
+  # =================================================================
+  #Approver Name: Person responsible for approving costs related to this resource.	
+  Approver: chris@contoso.com
+  #BudgetAmount: Budget required/approved, Money approved for this application, service, or workload.	
+  BudgetAmount: $200,000
+  #CostCenter:Cost center	Accounting cost center associated with this resource.	
+  CostCenter: 55332
+  #DR: Disaster recovery	Business criticality of the application, workload, or service.	DR
+  #Mission-critical, Critical, Essential
+  DR: Critical
+  #EndDate:End date of the project	Date when the application, workload, or service is scheduled for retirement.	
+  EndDate: 2023-10-15
+  #Env:Environment	Deployment environment of the application, workload, or service.	
+  #Prod, Dev, QA, Stage, Test
+  Env: Prod
+  #Owner:Owner name	Owner of the application, workload, or service.	
+  Owner: jane@contoso.com
+  #Requester:Requester name	User who requested the creation of this application.	
+  Requester: john@contoso.com
+  #ServiceClass: Service class	Service level agreement level of the application, workload, or service.	
+  # Dev, Bronze, Silver, Gold
+  ServiceClass: Gold
+  #StartDate:Start date of the project	Date when the application, workload, or service was first deployed.	StartDate
+  StartDate: 2020-10-15
